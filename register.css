@@ -239,3 +239,26 @@ body{
     border: 1px solid black;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
  }
+ .footerSocial>a>#socialIcona:hover{
+    color: blue !important;
+    border-radius: 100%;
+}
+
+ .footerSocial>a >#socialIconb:hover{
+    color: rgb(136, 213, 233)! important;
+    
+}
+ 
+ @media screen and (max-width:1200px){
+    #socialIcona {
+        margin-left: -4em !important;
+        margin-bottom: 1.5em;
+    }
+    #socialIconb{
+        
+        margin-bottom: 1.5em;
+    }
+    .footerImg{
+        margin-top: 2em !important;
+    }
+}
