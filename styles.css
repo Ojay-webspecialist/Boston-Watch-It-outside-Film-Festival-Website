@@ -3,6 +3,12 @@ body{
 
     font-family: 'Philosopher', sans-serif;
 }
+a.nav-link{
+    color: gold !important;
+}
+.footerLinks a.nav-link{
+    color: white !important;
+}
 .nav-link:hover{
     text-decoration: underline;
     transition: ease-in 1.5s;
@@ -13,8 +19,9 @@ body{
     
 }
 
+
 #navHeader{
-    background-image: url('outingthingsheader.jpg');
+    background-image: url('headerthingsb.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,9 +145,17 @@ padding-top: 1em;
     .headerSection>.heading2{
         font-size: 2em;
     }
+    
+}
+
+@media screen and (max-width:572px) and (max-width: 842px) {
+    .mx-auto {
+        margin-left: 0 !important;
+    }
 }
 
 @media screen and (max-width:838px){
+   
     .footerImg{
 
        
@@ -164,6 +179,7 @@ padding-top: 1em;
     }
 }
 @media screen and (max-width:1200px){
+  
     .footerSocial{
         margin:0 auto !important;
         align-items: center;

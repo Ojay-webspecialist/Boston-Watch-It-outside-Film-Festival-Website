@@ -3,6 +3,9 @@ body{
  
      font-family: 'Philosopher', sans-serif;
  }
+ a.nav-link{
+    color: gold !important;
+}
  .nav-link:hover{
      text-decoration: underline;
      transition: ease-in 1.5s;
@@ -14,13 +17,19 @@ body{
  }
  
  #navHeader{
-     background-image: url('header_image2.jpg');
+     background-image: url('headerthingsb.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      height: 45vh;
  }
  
+ @media screen and (max-width:572px) and (max-width: 842px) {
+    .mx-auto {
+        margin-left: 0 !important;
+    }
+}
+
  @media  screen and (max-width:576px){
      #navHeader{
          height:auto;
@@ -220,6 +229,7 @@ body{
          border-left-color: currentcolor;
      border-color: black;
      border-radius: 0px;
+     text-align: center;
  }
  
  .selectionLocate{
@@ -239,6 +249,11 @@ body{
     border: 1px solid black;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
  }
+ span.datetime-input-edit-wrapper {
+    
+    text-align: center !important;
+}
+
  .footerSocial>a>#socialIcona:hover{
     color: blue !important;
     border-radius: 100%;
@@ -248,7 +263,9 @@ body{
     color: rgb(136, 213, 233)! important;
     
 }
- 
+.footerLinks a.nav-link{
+    color: white !important;
+}
  @media screen and (max-width:1200px){
     #socialIcona {
         margin-left: -4em !important;
