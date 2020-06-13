@@ -152,6 +152,10 @@ padding-top: 1em;
     .mx-auto {
         margin-left: 0 !important;
     }
+    .navbar-dark .navbar-nav .nav-link {
+        
+        margin-bottom: 0.5em !important;
+    }
 }
 
 @media screen and (max-width:838px){
